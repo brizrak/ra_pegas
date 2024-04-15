@@ -7,16 +7,3 @@ from wagtail.fields import RichTextField
 
 class HomePage(Page):
     pass
-    # cat_image = RichTextField(
-    #     blank=True,
-    #     null=True,
-    # )
-    # cats_image = RichTextField(
-    #     blank=True,
-    #     null=True,
-    # )
-    #
-    # content_panels = Page.content_panels + [
-    #     FieldPanel('cat_image'),
-    #     FieldPanel('cats_image'),
-    # ]
