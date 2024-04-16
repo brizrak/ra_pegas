@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-
+WSGI_APPLICATION = "ra_pegas.wsgi.application"
 
 
 # Database
