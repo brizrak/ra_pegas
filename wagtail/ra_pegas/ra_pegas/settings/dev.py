@@ -7,7 +7,7 @@ DEBUG = True
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: define the correct hosts in production!
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '147.45.147.55']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '147.45.161.198', 'ra-pegas.ru', 'www.ra-pegas.ru']
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
