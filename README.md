@@ -25,8 +25,9 @@ REASSIGN OWNED BY old_role TO new_role;
 
 RUNNING:
 
-cd ra_pegas/wagtail
-python -m venv venv
+sudo nano .env 
+cd wagtail
+python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 cd ra_pegas
