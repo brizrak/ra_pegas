@@ -31,6 +31,13 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 cd ra_pegas
+
+
+
 python manage.py makemigrations
 python manage.py migrate
-python manage.py runserver
+python manage.py collectstatic
+sudo cp -r /home/bibza/ra_pegas/wagtail/ra_pegas/static /usr/share/nginx/html
+sudo systemctl daemon-reload
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
