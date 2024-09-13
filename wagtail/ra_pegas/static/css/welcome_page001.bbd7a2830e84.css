@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: red;
+}
+
+header {
+    height: 10%;
+}
+
+.logo image{
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 50x;
+    max-height: 50px;
+}

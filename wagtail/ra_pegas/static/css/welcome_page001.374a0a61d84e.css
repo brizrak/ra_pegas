@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: red;
+}
+
+header {
+    height: 10%;
+}
