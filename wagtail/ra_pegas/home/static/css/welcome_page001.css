@@ -11,6 +11,11 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
     vertical-align: baseline;
 }
 
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
 html {
     font-family:  "Montserrat", sans-serif;
 }
@@ -105,19 +110,35 @@ html {
 
 #menu_button {
     background-color: #DA251C;
-    background-image: url("../../static/images/icon_menu.png");
     background-size: cover;
     border: none;
     border-radius: 5px;
+    padding: 4px 8px 2px 8px;
+}
+
+@media (max-width:780px) {
+    #menu {
+        display: none;
+    }
+}
+
+@media (min-width:781px) {
+    #menu {
+        display: grid;
+    }
 }
 
 #menu {
     background-color: #DA251C;
     padding: 10px 50px 10px 50px;
-    display: grid;
     justify-content: center;
     grid-column-gap: 20px;
     grid-template-columns: repeat(6, auto);
+}
+
+#menu_img {
+    width: 20px;
+    height: 20px;
 }
 
 @media (max-width:1050px) {
@@ -199,8 +220,22 @@ form {
     flex: 1 1 50%;
 }
 
-#main p {
-    margin: 30px;
+@media (max-width:780px) {
+    #main {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (min-width:780px) {
+    #main {
+        padding: 10px 100px 10px 100px;
+    }
+}
+
+@media (min-width:1050px) {
+    #main {
+        padding: 10px 150px 10px 150px;
+    }
 }
 
 #footer {
