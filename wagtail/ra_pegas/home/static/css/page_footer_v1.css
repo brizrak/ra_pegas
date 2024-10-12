@@ -1,0 +1,42 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: left;
+    background-color: #DA251C;
+    padding: 20px;
+}
+
+@media (min-width: 1050px) {
+    #footer {
+        padding-left: 15%;
+    }
+}
+
+@media (max-width:1050px) {
+    #footer {
+        padding-left: 12%;
+    }
+
+    #info p {
+        font-size: 11px;
+    }
+
+        #about_me p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:780px) {
+    #footer {
+        padding-left: 5%;
+    }
+}
+
+#info p {
+    margin: 5px 0 5px 0;
+}
+
+#about_me p {
+    margin: 5px 0 5px 0;
+}

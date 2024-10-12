@@ -1,0 +1,22 @@
+#main {
+    display: block;
+    flex: 1 1 50%;
+}
+
+@media (max-width:780px) {
+    #main {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (min-width:780px) {
+    #main {
+        padding: 10px 100px 10px 100px;
+    }
+}
+
+@media (min-width:1050px) {
+    #main {
+        padding: 10px 150px 10px 150px;
+    }
+}

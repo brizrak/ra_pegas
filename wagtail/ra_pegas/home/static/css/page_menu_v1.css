@@ -1,0 +1,48 @@
+#menu_button_block {
+    margin-top: 30px;
+}
+
+@media (min-width:781px) {
+    #menu_button_block {
+        display: none;
+    }
+}
+
+#menu_button {
+    background-color: #DA251C;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px 2px 8px;
+}
+
+@media (max-width:780px) {
+    #menu {
+        display: none;
+    }
+}
+
+@media (min-width:781px) {
+    #menu {
+        display: grid;
+    }
+}
+
+#menu {
+    background-color: #DA251C;
+    padding: 10px 50px 10px 50px;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(6, auto);
+}
+
+#menu_img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width:1050px) {
+    #menu p {
+        font-size: 11px;
+    }
+}
